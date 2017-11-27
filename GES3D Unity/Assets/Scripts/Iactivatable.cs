@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Iactivatable : MonoBehaviour {
+public class Iactivatable 
+{
+    
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    void doActivate()
+    {
+        
+    }
+
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+	
 }
