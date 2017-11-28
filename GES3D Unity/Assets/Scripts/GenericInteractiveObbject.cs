@@ -5,10 +5,19 @@ using UnityEngine;
 public class GenericInteractiveObbject : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	private void Start () 
+    {
+        Deactivate();
 		
 	}
 	
+    private void Deactivate()
+    {
+
+        Debug.Log(transform.name + " was activated!");
+
+
+    }
 	// Update is called once per frame
 	void Update () {
 		
