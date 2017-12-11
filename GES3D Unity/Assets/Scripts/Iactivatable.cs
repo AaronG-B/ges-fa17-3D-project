@@ -2,16 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Iactivatable 
+public interface Iactivatable
 {
-    
 
-    void doActivate()
-    {
-        
-    }
+    string NameText { get; }
 
-	
 
-	
+
+    void DoActivate();
+
 }
+
